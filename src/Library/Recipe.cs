@@ -15,6 +15,14 @@ namespace Full_GRASP_And_SOLID.Library
 
         public Product FinalProduct { get; set; }
 
+        public ArrayList Steps
+        {
+            get
+            {
+                return this.steps;
+            }
+        }
+
         public void AddStep(Step step)
         {
             this.steps.Add(step);
